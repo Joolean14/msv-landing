@@ -1,0 +1,16 @@
+/* amarillo #F2D479 */
+/* azul #3966BF */
+/* violeta #8C4F88 */
+/* rojo #D93030 */
+
+
+.yellow-frame {   
+    margin:0px auto important!;
+    width:100% important!;
+    height:50px important!; 
+    background-color:grey important!;
+    float:left important!;
+    padding:10px important!;
+    border:2px solid red important!;
+    box-shadow: 0 0 0 10px blue inset important!;
+}
