@@ -4,13 +4,83 @@
 /* rojo #D93030 */
 
 
-.yellow-frame {   
-    margin:0px auto important!;
-    width:100% important!;
-    height:50px important!; 
-    background-color:grey important!;
-    float:left important!;
-    padding:10px important!;
-    border:2px solid red important!;
-    box-shadow: 0 0 0 10px blue inset important!;
+.viewport-div {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.yellow-frame {
+    border: 4vw solid #F2D479;
+    padding: 4vw;
+    background: #EAF0F6;
+    background-clip: border-box;
+}
+
+.blue-frame {
+    border: 4vw solid #3966BF;
+    padding: 4vw;
+    background: #EAF0F6;
+    background-clip: border-box;
+}
+
+.red-frame {
+    border: 4vw solid #D93030;
+    padding: 4vw;
+    background: #EAF0F6;
+    background-clip: border-box;    
+}
+
+.purple-frame {
+    border: 4vw solid #8C4F88;
+    padding: 4vw;
+    background: #EAF0F6;
+    background-clip: border-box;
+}
+
+.blue-background {
+    background-color: #3966BF;
+
+}
+
+
+/* SWIPER JS */
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
+
+/* WAPP BTN */
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
 }

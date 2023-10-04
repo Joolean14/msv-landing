@@ -6,57 +6,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Margarita Siempre Viva</title>
 
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- BULMA -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <!-- SWIPER -->
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
-    <section class="hero is-danger is-fullheight">
+    <section class="viewport-div blue-frame">
         <div class="hero-body">
             <div class="">
                 <p class="title">
-                    Banner novedades
-                </p>
-                <p class="subtitle">
-                    Fullheight subtitle
+                    Novedades
                 </p>
             </div>
         </div>
     </section>
-    <section class="hero is-succes is-fullheight">
+    <section class="viewport-div yellow-frame">
         <div class="hero-body">
             <div class="">
                 <p class="title">
-                    Videos de Youtube
+                    Videos
                 </p>
-                <p class="subtitle">
-                    Fullheight subtitle
-                </p>
+                <figure class="image is-16by9 m-2">
+                    <iframe class="has-ratio" width="560" height="315"
+                        src="https://www.youtube.com/embed/eOV15a0yLAc?si=gk0t_GEuCx4zqEbX" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </figure>
+                <figure class="image is-16by9 m-2">
+                    <iframe class="has-ratio" width="560" height="315"
+                        src="https://www.youtube.com/embed/v52HiP58sZQ?si=L6Qrdi2wum8fMB4w" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </figure>
+                <figure class="image is-16by9 m-2">
+                    <iframe class="has-ratio" width="560" height="315"
+                        src="https://www.youtube.com/embed/mY_FDZAlv1Y?si=LCJlpfmQJRi-KhtN" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </figure>
             </div>
         </div>
     </section>
-    <section class="hero is-info is-fullheight">
+    <section class="hero red-frame is-fullheight">
         <div class="hero-body">
             <div class="">
                 <p class="title">
-                    Galeria de fotos
+                    Shop Now
                 </p>
                 <p class="subtitle">
-                    Fullheight subtitle
+                    MSV Merch
                 </p>
+                <div class="is-flex is-flex-direction-column align-content-center justify-content-center">
+                    <img class="image is-flex m-2" src="/assets/camisetas.gif" alt="">
+                    <a  class="m-2" href="https://api.whatsapp.com/send?phone=+573113592746&text=Hola%21%20Estoy%20interesado%20en%20comprar%20merch%20de%20Margarita%20Siempre%20Viva"
+                        target="_blank">
+                        <button class="button is-large">Shop</button>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Swiper -->
+    <div class="swiper myGallerySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="assets/CordilleraFest.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/CordilleraFest-3.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/CordilleraFest-4.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/CordilleraFest-5.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/CordilleraFest-6.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/CordilleraFest-7.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/CordilleraFest-8.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/CordilleraFest-9.jpg" />
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <footer class="hero blue-background">
+        <div class="hero-body">
+            <p class="has-text-white">juliana.gomez@falsoidolo.com</p>
+            <span class="icon">
+                <a href="https://www.instagram.com/margaritasiempreviva/?hl=en" target="_blank">
+                    <i class="fa fa-instagram has-text-white fa-lg"></i>
+                </a>
+            </span>
+            <span class="icon">
+                <a href="https://margaritasiempreviva.bandcamp.com" target="_blank">
+                    <i class="fab fa-bandcamp has-text-white fa-lg"></i>
+                </a>
+            </span>
+            <span class="icon">
+                <a href="https://www.youtube.com/@margaritasiempreviva" target="_blank">
+                    <i class="fa fa-youtube has-text-white fa-lg"></i>
+                </a>
+            </span>
+            <span class="icon">
+                <a href="https://www.tiktok.com/@margaritasiempreviva" target="_blank">
+                    <i class="fab fa-tiktok has-text-white fa-lg"></i>
+                </a>
+            </span>
+            <!-- <p>
+
+            <a href="#" class="has-text-white is-underlined" id="open_preferences_center">Actualizar preferencias de
+                cookies</a>
+        </p> -->
+            <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+            <p class="has-text-centered has-text-white">© Falso Ídolo 2023</p>
+        </div>
+    </footer>
+
+
+    <!-- WAPP BTN -->
+    <a href="https://api.whatsapp.com/send?phone=+573113592746&text=Hola%21%20Estoy%20interesado%20en%20comprar%20merch%20de%20Margarita%20Siempre%20Viva"
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
 
     <!-- SWIPER -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/98ca127883.js" crossorigin="anonymous"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".myGallerySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+
 </body>
 
 </html>
