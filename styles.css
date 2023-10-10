@@ -87,6 +87,35 @@ h1 {
     --swiper-theme-color:  #F2D479 !important; 
 }
 
+
+@media (max-width: 1024px) {
+
+    .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .swiper-sponsor {
+        width: 100% !important;
+        /* height: 50% !important; */
+    }
+    .swiper-merch {
+        width: 100% !important;
+    }
+    
+    .swiper-gallery {
+        width: 100% !important;
+    }
+  
+    
+  }
+  
+
+
+
+
 /* SHOP BTNS */
 
 .shop-btn {
