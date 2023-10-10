@@ -3,6 +3,13 @@
 /* violeta #8C4F88 */
 /* rojo #D93030 */
 
+/* H1 */
+
+h1 {
+    visibility: hidden;
+}
+
+/* HEROS */
 
 .viewport-div {
     min-height: 50vh;
@@ -10,28 +17,28 @@
 }
 
 .yellow-frame {
-    border: 4vw solid #F2D479;
+    border: 2vw solid #F2D479;
     padding: 4vw;
     background: #EAF0F6;
     background-clip: border-box;
 }
 
 .blue-frame {
-    border: 4vw solid #3966BF;
+    border: 2vw solid #3966BF;
     padding: 4vw;
     background: #EAF0F6;
     background-clip: border-box;
 }
 
 .red-frame {
-    border: 4vw solid #D93030;
+    border: 2vw solid #D93030;
     padding: 4vw;
     background: #EAF0F6;
     background-clip: border-box;    
 }
 
 .purple-frame {
-    border: 4vw solid #8C4F88;
+    border: 2vw solid #8C4F88;
     padding: 4vw;
     background: #EAF0F6;
     background-clip: border-box;
@@ -46,9 +53,22 @@
 /* SWIPER JS */
 
 .swiper {
-    width: 100%;
+    width: 50%;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.swiper-sponsor {
+    width: 30% !important;
+    /* height: 50% !important; */
+}
+
+.swiper-merch {
+    width: 50% !important;
+}
+
+.swiper-gallery {
+    width: 80% !important;
 }
 
 .swiper-slide {
