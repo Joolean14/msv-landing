@@ -106,6 +106,14 @@
   
     
   }
+
+  @media (max-width: 700px) {
+
+    .resize-img-vw {
+        width: 60wv !important ;
+    }
+    
+    }
   
 
 
