@@ -80,7 +80,7 @@ body {
     color: #3966BF;
 }
 
-/* SOCKS AND ROLLING PAPER RESIZE */
+/* SOCKS, CAPS AND ROLLING PAPER RESIZE */
 
 .resize-img {
     width: 80% !important;
@@ -112,8 +112,14 @@ body {
     margin: 5px;
 }
 
-.max-width-content {
-    width: max-content !important;
+
+@media (min-width: 700px) {
+    
+    
+    .max-width-content {
+        width: max-content !important;
+    }
+    
 }
 
 @media (max-width: 1024px) {
@@ -123,6 +129,18 @@ body {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    
-  }
 
+    
+}
+
+@media (max-width: 700px) {
+
+.position-relative {
+    position: relative !important;
+}
+
+.resize-img-vw {
+    width: 60wv !important ;
+}
+
+}
