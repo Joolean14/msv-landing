@@ -29,7 +29,7 @@
     border: 2vw solid #D93030;
     padding: 4vw;
     background: #EAF0F6;
-    background-clip: border-box;    
+    background-clip: border-box;
 }
 
 .purple-frame {
@@ -79,8 +79,9 @@
 }
 
 :root {
-    --swiper-theme-color:  #F2D479 !important; 
+    --swiper-theme-color: #F2D479 !important;
 }
+
 
 
 @media (max-width: 1024px) {
@@ -96,25 +97,26 @@
         width: 100% !important;
         /* height: 50% !important; */
     }
+
     .swiper-merch {
         width: 100% !important;
     }
-    
+
     .swiper-gallery {
         width: 100% !important;
     }
-  
-    
-  }
 
-  @media (max-width: 700px) {
+
+}
+
+@media (max-width: 700px) {
 
     .resize-img-vw {
-        width: 60wv !important ;
+        width: 60wv !important;
     }
-    
-    }
-  
+
+}
+
 
 
 
@@ -130,7 +132,7 @@
     font-size: large;
     border: none;
     cursor: pointer;
-    background-color:  #3966BF;
+    background-color: #3966BF;
 }
 
 
