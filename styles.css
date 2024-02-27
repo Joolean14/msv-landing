@@ -6,6 +6,22 @@
 
 /* HEROS */
 
+.viewport-div-unsubscribe {
+    min-height: 100vh;
+    min-width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellow-frame-unsubscribe {
+    border: 2vw solid #F2D479;
+    padding: 4vw;
+    background: black;
+    background-clip: border-box;
+}
+
+
 .viewport-div {
     min-height: 50vh;
     min-width: 50vw;
