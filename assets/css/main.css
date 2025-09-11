@@ -1,11 +1,36 @@
-@import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Actualizado y modificado para Margarita Siempre Viva 2025 por Maria Clara Assis
 */
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url(fontawesome-all.min.css);
+
+@font-face {
+  font-family: 'Newake';
+  src: url('../webfonts/NewakeFont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CoreCircus';
+  src: url('../webfonts/CoreCircus.woff2') format('woff2'),
+       url('../webfonts/CoreCircus.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  src: url('../webfonts/Catamaran-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -29,12 +54,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
+
+
+
+
 body {
 	line-height: 1;
 	cursor: url("../../images/margarita.png"), auto;
-
-
-
 }
 
 ol, ul {
@@ -116,7 +144,7 @@ input, select, textarea {
 /* Type */
 
 	html {
-		font-size: 16pt;
+		font-size: 15pt;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -145,10 +173,11 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
-		font-weight: 300;
-		font-size: 1rem;
+		font-family: "Catamaran", sans-serif;
+		font-weight: 200;
+		font-size: 0.8rem;
 		line-height: 1.65;
+		letter-spacing: 0rem;
 	}
 
 	a {
@@ -171,20 +200,31 @@ input, select, textarea {
 	}
 
 	em, i {
-		font-style: italic;
+		font-style: normal;
 	}
 
 	p {
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
 		color: #ffffff;
-		font-weight: 600;
-		line-height: 1.5;
+		font-family: 'Newake', sans-serif;
+		font-weight: 400;
+		line-height: 1;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
+	}
+
+	h2, h3, h4, h5, h6 {
+		color: #BAA074;
+		font-family: 'Newake', sans-serif;
+		font-weight: 100;
+		line-height: 1;
+		margin: 0 0 1rem 0;
+		text-transform: uppercase;
+		letter-spacing: 0.1rem;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -203,15 +243,15 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.25rem;
+		font-size: 2.5rem;
 		line-height: 1.3;
-		letter-spacing: 0.5rem;
+		letter-spacing: 0.1rem;
 	}
 
 	h2 {
-		font-size: 1.5rem;
-		line-height: 1.4;
-		letter-spacing: 0.5rem;
+		font-size: 1rem;
+		line-height: 1;
+		letter-spacing: 0.2rem;
 	}
 
 	h3 {
@@ -219,15 +259,15 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 
 	h5 {
-		font-size: 0.7rem;
+		font-size: 1rem;
 	}
 
 	h6 {
-		font-size: 0.6rem;
+		font-size: 1rem;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -238,7 +278,7 @@ input, select, textarea {
 		}
 
 		h2 {
-			font-size: 1.25em;
+			font-size: 1em;
 			line-height: 1.5;
 		}
 
@@ -258,7 +298,7 @@ input, select, textarea {
 
 	blockquote {
 		border-left: solid 4px #ffffff;
-		font-style: italic;
+		font-style: normal;
 		margin: 0 0 2rem 0;
 		padding: 0.5rem 0 0.5rem 2rem;
 	}
@@ -266,7 +306,7 @@ input, select, textarea {
 	code {
 		background: rgba(255, 255, 255, 0.075);
 		border-radius: 4px;
-		font-family: "Courier New", monospace;
+		font-family: "Newake", monospace;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.65rem;
@@ -274,7 +314,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Newake", monospace;
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
 	}
@@ -509,7 +549,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Newake';
 				font-weight: 900;
 			}
 
@@ -609,7 +649,6 @@ input, select, textarea {
 		position: relative;
 	}
 
-
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -619,9 +658,8 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Newake';
 			font-weight: 400;
-
 		}
 
 		.icon > .label {
@@ -637,7 +675,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Newake';
 		}
 
 /* Image */
@@ -1105,7 +1143,6 @@ input, select, textarea {
 		line-height: calc(2.75rem - 2px);
 	}
 
-
 /* BG */
 
 	#bg {
@@ -1132,52 +1169,28 @@ input, select, textarea {
 			height: 100%;
 		}
 
-		#bg:before {
-			-moz-transition: background-color 2.5s ease-in-out;
-			-webkit-transition: background-color 2.5s ease-in-out;
-			-ms-transition: background-color 2.5s ease-in-out;
-			transition: background-color 2.5s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto,
- 256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- repeat;
-			z-index: 2;
-		}
-
+#bg:before {
+    transition: background-color 1s ease-in-out;
+    transition-delay: 0.2s;
+    background-image: linear-gradient(to top, rgba(19, 21, 25, 0.1), rgba(19, 21, 25, 0.1)), url("../../images/overlay.png");
+    background-size: auto, 256px 256px;
+    background-position: center, center;
+    background-repeat: no-repeat, repeat;
+    z-index: 2;
+}
 		#bg:after {
-			-moz-transform: scale(1.125);
-			-webkit-transform: scale(1.125);
-			-ms-transform: scale(1.125);
-			transform: scale(1.125);
-			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
-			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
-			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
-			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
-			background-position: center;
-			background-size: cover;
-			background-repeat: no-repeat;
-			z-index: 1;
-		}
+    transform: scale(1);
+    background-image: url("../../images/bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
 
-		body.is-article-visible #bg:after {
-			-moz-transform: scale(1.0825);
-			-webkit-transform: scale(1.0825);
-			-ms-transform: scale(1.0825);
-			transform: scale(1.0825);
-			-moz-filter: blur(0.2rem);
-			-webkit-filter: blur(0.2rem);
-			-ms-filter: blur(0.2rem);
-			filter: blur(0.2rem);
-		}
-
+body.is-article-visible #bg:after {
+    transform: scale(1);
+    filter: blur(0.2rem);
+}
 		body.is-preload #bg:before {
 			background-color: #000000;
 		}
@@ -1239,42 +1252,6 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		max-width: 100%;
-		text-align: center;
-	}
-
-		#header > * {
-			-moz-transition: opacity 0.325s ease-in-out;
-			-webkit-transition: opacity 0.325s ease-in-out;
-			-ms-transition: opacity 0.325s ease-in-out;
-			transition: opacity 0.325s ease-in-out;
-			position: relative;
-			margin-top: 3.5rem;
-		}
-
-
-
 		#header > :first-child {
 			margin-top: 0;
 		}
@@ -1282,8 +1259,6 @@ input, select, textarea {
 			#header > :first-child:before {
 				display: none;
 			}
-
-	
 
 			#header .logo .icon:before {
 				font-size: 2rem;
@@ -1316,59 +1291,69 @@ input, select, textarea {
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
+
 			}
 
-		#header nav ul {
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
-			margin-bottom: 0;
-			list-style: none;
-			padding-left: 0;
-			border: solid 1px #ffffff;
-			border-radius: 4px;
-		}
+		#header nav {
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+	z-index: 100;
+}
+
+#header nav ul {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	margin-bottom: 0;
+	list-style: none;
+	padding-left: 0;
+	border: none;
+	border-radius: 0;
+	background: none;
+	gap: 0.8rem;
+}
 
 			#header nav ul li {
-				padding-left: 0;
-				border-left: solid 1px #ffffff;
-			}
+	padding-left: 0;
+	border-left: none;
+	border: none;
+	background: none;
+}
 
 				#header nav ul li:first-child {
-					border-left: 0;
+					border-left: none;
 				}
 
-				#header nav ul li a {
-					display: block;
-					min-width: 7.5rem;
-					height: 2.75rem;
-					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
-					text-transform: uppercase;
-					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
-					border-bottom: 0;
-				}
+#header nav ul li a {
+    font-family: 'Newake', sans-serif !important; /* CAMBIADO */
+    font-weight: 500 !important;
+    letter-spacing: 0.1rem !important;
+    display: block;
+    min-width: auto; /* Cambio: de 6rem a auto */
+    height: auto; /* Cambio: de 2.75rem a auto */
+    line-height: 1.2; /* Cambio: línea más natural */
+    padding: 0.5rem 0.8rem; /* Cambio: padding mucho más reducido */
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    border-bottom: 0;
+    border-radius: 3px; /* Opcional: esquinas ligeramente redondeadas */
+    transition: background-color 0.2s ease, opacity 0.2s ease; /* Transición suave */
+}
 
-					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
-					}
+#header nav ul li a:hover {
+    background-color: transparent; /* Sin fondo */
+    color: #DDC3A4 !important; /* Cambio de color a dorado */
+    opacity: 1; /* Opacidad completa para mejor visibilidad del color */
+}
 
-					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
-					}
+#header nav ul li a:active {
+    background-color: transparent; /* Sin fondo al hacer clic */
+    color: #BAA074 !important; /* Mantiene el color dorado */
+    opacity: 1; /* Opacidad completa */
+}
 
-		#header nav.use-middle:after {
-			content: '';
-			display: block;
-			position: absolute;
-			top: 0;
-			left: calc(50% - 1px);
-			width: 1px;
-			height: 100%;
-			background: #ffffff;
-		}
 
 		#header nav.use-middle ul li.is-middle {
 			border-left: 0;
@@ -1404,44 +1389,26 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 480px) {
 
-			#header .content p br {
-				display: none;
-			}
+    /* menú vertical */
+    #header nav ul {
+        flex-direction: column;
+        align-items: flex-end; /* Alinea a la derecha */
+        min-width: 10rem;
+        max-width: 100%;
+    }
 
-		}
+    #header nav ul li {
+        border: none; /* elimina las líneas solo en vertical */
+    }
 
-		@media screen and (max-width: 736px) {
+    #header nav ul li a {
+        width: auto; /* que se ajuste al contenido */
+        padding: 0.5rem 1rem;
+    }
 
-			#header > * {
-				margin-top: 2rem;
-			}
-
-				#header > *:before {
-					top: calc(-2rem - 1px);
-					height: calc(2rem + 1px);
-				}
-
-			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
-			}
-
-				#header .logo .icon:before {
-					font-size: 1.75rem;
-				}
-
-			#header .content .inner {
-				padding: 2.5rem 1rem;
-			}
-
-			#header .content p {
-				line-height: 1.875;
-			}
-
-		}
+}
 
 		@media screen and (max-width: 480px) {
 
@@ -1619,7 +1586,7 @@ input, select, textarea {
 	}
 
 		#footer .copyright {
-			letter-spacing: 0.2rem;
+			letter-spacing: 0.1rem;
 			font-size: 0.6rem;
 			opacity: 0.75;
 			margin-bottom: 0;
@@ -1641,3 +1608,614 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Redes Sociales - Esquina superior izquierda */
+
+#social-media ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.2rem !important; /* MÁS ESPACIO ENTRE ÍCONOS */
+}
+
+#social-media ul li a {
+    display: inline-block;
+    font-size: 0.8rem !important;   /* Tamaño del ícono */
+    color: #ffffff !important;      /* Blanco siempre */
+    background: none !important;    /* Sin fondo */
+    border: none !important;        /* Sin borde */
+    border-radius: 0 !important;    /* Quitar círculo */
+    width: auto !important;         /* Ajuste automático */
+    height: auto !important;        /* Ajuste automático */
+    line-height: normal !important; /* Quitar centrado forzado */
+    padding: 0 !important;
+    margin: 0 !important;
+    text-decoration: none !important;
+    box-shadow: none !important;    /* Sin sombra */
+    transition: none !important;    /* Sin animación */
+}
+
+/* Quitar hover */
+#social-media ul li a:hover {
+    color: #ffffff !important;
+    background: none !important;
+    border: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* Más arriba que todo y recibiendo clics */
+#social-media {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  z-index: 9999 !important;
+  pointer-events: auto !important;
+  transition: transform 0.1s ease-in-out, filter 0.1s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+/* Más espacio entre íconos */
+#social-media ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1.3rem !important;
+}
+
+/* Enlaces: área clickeable sin círculo */
+#social-media ul li a {
+  position: relative;
+  z-index: 2;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem !important;  /* tamaño del ícono */
+  color: #fff !important;         /* siempre blanco */
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  padding: 0.25rem 0.35rem !important; /* área clickeable sin fondo */
+  line-height: 1 !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  transition: none !important;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+}
+
+/* Neutralizar hover/active */
+#social-media ul li a:hover,
+#social-media ul li a:active {
+  color: #fff !important;
+  background: transparent !important;
+  border: 0 !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* Por si quedaron reglas de marca en tu CSS */
+#social-media ul li a.instagram:hover,
+#social-media ul li a.tiktok:hover,
+#social-media ul li a.facebook:hover,
+#social-media ul li a.youtube:hover {
+  background: transparent !important;
+  border: 0 !important;
+}
+
+/* Responsive: íconos más pequeños en pantallas chicas */
+@media screen and (max-width: 736px) {
+    #social-media {
+        top: 1rem;
+        left: 1rem;
+    }
+    #social-media ul {
+        gap: 0.4rem;
+    }
+    #social-media ul li a {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #social-media {
+        top: 0.5rem;
+        left: 0.5rem;
+    }
+    #social-media ul {
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+    #social-media ul li a {
+        font-size: 0.75rem;
+    }
+}
+
+/* Efecto fade para redes sociales */
+body.is-article-visible #social-media {
+    transform: scale(0.95);
+    filter: blur(0.1rem);
+    opacity: 0;
+}
+
+body.is-preload #social-media {
+    opacity: 0;
+}
+
+/* =========================
+   ESTILOS PARA SECCIÓN TOUR
+   ========================= */
+
+.tour-date {
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 4px;
+    padding: 1rem;
+    transition: all 0.4s ease;     /* Transición más suave */
+    opacity: 0.9;                  /* Más transparente inicialmente */
+}
+
+.tour-date:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+    opacity: 1;                    /* Solo cambia opacidad */
+    /* Sin transform: translateY() */
+}
+
+.date-info {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+.date-day {
+    text-align: center;
+    min-width: 60px;
+}
+
+.date-number {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+}
+
+.date-month {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 0.25rem;
+}
+
+.venue-info {
+    flex-grow: 1;
+}
+
+.venue-name {
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 0.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.venue-location {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.06rem;
+}
+
+.venue-time {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.25rem;
+}
+
+.ticket-button {
+    background-color: transparent;
+    border: solid 1px #ffffff;
+    border-radius: 4px;
+    color: #ffffff !important;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    min-width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.ticket-button:hover {
+    background-color: #BAA074;  /* Fondo blanco */
+    color: #1b1f22 !important;  /* Letra negra (mismo color del fondo del body) */
+    transform: translateY(-1px);
+    border-bottom-color: transparent;
+    border-color: #BAA074;  /* Mantiene el borde blanco */
+}
+
+.ticket-button:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.ticket-button.sold-out {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.5) !important;
+    pointer-events: none;
+}
+
+.coming-soon {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.coming-soon i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.coming-soon h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.coming-soon p {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+/* Responsive para Tour */
+@media screen and (max-width: 736px) {
+    .date-info {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+        text-align: center;
+    }
+
+    .date-day {
+        min-width: auto;
+    }
+
+    .date-number {
+        font-size: 1.5rem;
+    }
+
+    .ticket-button {
+        min-width: 90px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tour-date {
+        padding: 1rem;
+    }
+
+    .venue-name {
+        font-size: 0.9rem;
+    }
+
+    .venue-location {
+        font-size: 0.75rem;
+    }
+
+    .ticket-button {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.65rem;
+    }
+}
+
+
+/* =========================
+   ESTILOS ESPECÍFICOS PARA CONTACTO
+   ========================= */
+
+/* Texto principal en la sección contacto */
+#contact p {
+    font-size: 1rem;           /* Más grande que el 0.8rem actual */
+    line-height: 1.8;          /* Mejor espaciado entre líneas */
+    margin-bottom: 0.8rem;       /* Espacio entre párrafos */
+    letter-spacing: 0.06rem
+}
+
+/* Si quieres hacer SOLO la información de contacto más grande */
+#contact p:not(:first-of-type) {
+    font-size: 1.1rem;         /* Aún más grande para email y teléfono */
+    font-weight: 300;          /* Ligeramente más grueso */
+}
+
+/* Responsive: En pantallas pequeñas, ajustar un poco */
+@media screen and (max-width: 736px) {
+    #contact p {
+        font-size: 0.95rem;    /* Ligeramente más pequeño en móviles */
+        line-height: 1.7;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #contact p {
+        font-size: 0.9rem;     /* Más pequeño en pantallas muy pequeñas */
+    }
+}
+
+/* =========================
+   BANNER PROMOCIONAL ÁLBUM
+   ========================= */
+
+/* Banner compacto */
+.album-banner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.banner-card {
+    display: grid;
+    grid-template-columns: 300px 350px;
+    background: #D4C5A9;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    position: relative;
+    max-width: 700px;
+}
+
+
+/* Imagen álbum izquierda */
+.banner-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.album-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    min-height: 100px;
+}
+
+/* Información derecha */
+.banner-info {
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #D4C5A9;
+    position: relative;
+}
+
+/* Botón cerrar - esquina superior derecha */
+.close-btn {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+  background: none;        /* sin fondo */
+  border: none;            /* sin borde */
+  outline: none;           /* sin contorno al hacer foco */
+  box-shadow: none;        /* sin sombra */
+  color: #000;             /* negro por defecto */
+  font-size: 1.5rem;       /* tamaño de la X */
+  cursor: pointer;
+  transition: color 0.2s ease;
+  z-index: 10001;
+}
+
+.close-btn:hover {
+  color: #fff;   /* blanco al pasar el mouse */
+}
+
+.close-btn:focus {
+  outline: none;  
+  box-shadow: none;
+}
+
+/* Logo de la banda */
+.band-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo-icon {
+    font-size: 2.5rem;
+    color: #1b1f22;
+}
+
+/* Texto */
+.album-title {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #1b1f22;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.1;
+}
+
+.pre-save-button {
+    background: #1b1f22;
+    color: #D4C5A9;
+    padding: 0.8rem 2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pre-save-button:hover {
+    background: #ffffff;
+    color: #1b1f22;
+}
+
+.release-date {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1b1f22;
+    letter-spacing: 0.1rem;
+}
+
+/* Texto lateral vertical */
+.side-label {
+    position: absolute;
+    left: -1.5rem;
+    top: 60%;
+    transform: translateY(-50%) rotate(-90deg);
+    font-size: 0.7rem;
+    color: #1b1f22;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    opacity: 0.6;
+    white-space: nowrap;
+}
+
+/* Overlay para cerrar */
+
+
+.banner-overlay.hidden {
+  display: none !important;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.banner-card {
+    animation: fadeIn 0.4s ease-out;
+    animation-delay: 1s;   /* 👈 espera 1 segundo antes de animar */
+    animation-fill-mode: backwards; /* mantiene invisible hasta empezar */
+}
+
+.album-banner,
+.banner-overlay {
+  display: none; /* 👈 oculta ambos de entrada */
+}
+
+/* Ocultar banner */
+.album-banner.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.banner-overlay.hidden {
+  display: none !important;
+}
+
+/* Responsive */
+
+
+/* Ajustes generales para móviles */
+@media screen and (max-width: 768px) {
+    .banner-card {
+        max-width: 100%; /* Ocupa todo el ancho disponible */
+        margin: 0.5rem auto; /* Centrado y menos espacio */
+        grid-template-columns: 1fr;
+    }
+
+    .banner-image, .album-photo {
+        height: 180px; /* Reduce altura de imagen */
+        object-fit: cover; /* Mantiene proporción y recorta lo necesario */
+    }
+
+    .banner-info {
+        padding: 1rem 1rem; /* Reduce padding vertical y horizontal */
+    }
+
+    .album-title {
+        font-size: 1.3rem; /* Texto más compacto */
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Ajustes para móviles muy pequeños */
+@media screen and (max-width: 480px) {
+    .banner-card {
+        max-width: 100%;
+        margin: 0.5rem;
+    }
+
+    .banner-image, .album-photo {
+        height: 140px; /* Altura aún más pequeña */
+    }
+
+    .banner-info {
+        padding: 0.8rem 0.8rem;
+    }
+
+    .album-title {
+        font-size: 1.1rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .pre-save-button {
+        padding: 0.5rem 1rem;
+        font-size: 0.75rem;
+    }
+
+    .release-date {
+        font-size: 1rem;
+    }
+}
+
+
+/* =================
+   RESPONSIVE MENU
+   ================= */
+
+ .menu li {
+    border: none; /* quita cualquier borde */
+}
+.hamburger {
+    display: none; /* si quieres quitar el ícono de hamburguesa */
+}
+
+@media (max-width: 768px) { /* para móviles */
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; /* esto alinea a la derecha */
+        padding-right: 1rem; /* espacio desde el borde derecho */
+    }
+    .menu li {
+        margin-bottom: 1rem; /* separación entre elementos */
+    }
+}
+
+.menu {
+    width: auto; /* que no ocupe todo el ancho */
+}
+
+
