@@ -702,6 +702,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		#contact .image:before {
+    display: none !important;
+}
+
 		.image img {
 			border-radius: 4px;
 			display: block;
@@ -1572,6 +1576,8 @@ body.is-article-visible #bg:after {
 
 		}
 
+
+
 /* Footer */
 
 	#footer {
@@ -1915,16 +1921,17 @@ body.is-preload #social-media {
 }
 
 
-/* =========================
+/* =================================
    ESTILOS ESPECÍFICOS PARA CONTACTO
-   ========================= */
+   ================================= */
 
 /* Texto principal en la sección contacto */
 #contact p {
     font-size: 1rem;           /* Más grande que el 0.8rem actual */
     line-height: 1.8;          /* Mejor espaciado entre líneas */
     margin-bottom: 0.8rem;       /* Espacio entre párrafos */
-    letter-spacing: 0.06rem
+    letter-spacing: 0.06rem;
+    text-align: center;
 }
 
 /* Si quieres hacer SOLO la información de contacto más grande */
@@ -2191,9 +2198,9 @@ body.is-preload #social-media {
 }
 
 
-/* =================
+/* ================
    RESPONSIVE MENU
-   ================= */
+   ================ */
 
  .menu li {
     border: none; /* quita cualquier borde */
@@ -2219,3 +2226,126 @@ body.is-preload #social-media {
 }
 
 
+
+/* ==========================
+   ESTILOS PARA SECCIÓN MERCH
+   ========================== */
+
+.merch-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.merch-item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    overflow: hidden;
+    border-bottom: none;
+}
+
+.merch-item:hover {
+    border-bottom: none;
+}
+
+.merch-item img {
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+    display: block;
+    border-radius: 4px 4px 0 0;
+}
+
+.merch-content {
+    padding: 1.5rem 0; /* menos relleno horizontal si quieres */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: transparent; /* fondo completamente invisible */
+}
+
+.merch-content h3 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.merch-content p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+    letter-spacing: 0.06rem;
+    margin: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+
+.merch-button {
+    background-color: transparent;
+    border: solid 1px #ffffff;
+    border-radius: 4px;
+    color: #ffffff !important;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    text-align: center;
+    display: inline-block;
+    align-self: center;
+}
+
+.merch-button:hover {
+    background-color: #BAA074;
+    color: #1b1f22 !important;
+    border-color: #BAA074;
+    border-bottom-color: #BAA074;
+}
+
+.merch-button:active {
+    background-color: rgba(186, 160, 116, 0.8);
+}
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 736px) {
+    .merch-grid {
+        gap: 2rem;
+    }
+    
+    .merch-item img {
+        height: 250px;
+    }
+    
+    .merch-content {
+        padding: 1.2rem;
+    }
+    
+    .merch-content h3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .merch-item img {
+        height: 200px;
+    }
+    
+    .merch-content {
+        padding: 1rem;
+    }
+    
+    .merch-button {
+        width: 100%;
+    }
+}
